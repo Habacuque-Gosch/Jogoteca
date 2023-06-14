@@ -11,11 +11,10 @@ jogo3 = Jogo('Mortal Kombat', 'Luta', 'PS2')
 lista = [jogo1, jogo2, jogo3]
 
 app = Flask(__name__)
-app.secret_key = "site de lista"
+app.secret_key = "lista de jogos"
 
 @app.route('/')
 def index():
-
     return render_template('lista.html', titulo='Jogos', jogos=lista)
 
 @app.route('/novo')
@@ -45,4 +44,5 @@ def aut():
         flash('Usuário não logado.')
         return redirect('/login')
 
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
