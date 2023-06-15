@@ -13,7 +13,7 @@ lista = [jogo1, jogo2, jogo3]
 app = Flask(__name__)
 app.secret_key = "lista de jogos"
 
-@app.route('/')
+@app.route('/lista')
 def index():
     return render_template('lista.html', titulo='Jogos', jogos=lista)
 
@@ -28,9 +28,9 @@ def criar():
     console = request.form['console']
     jogo = Jogo(nome, categoria, console)
     lista.append(jogo)
-    return redirect('/')
+    return redirect('/lista')
 
-@app.route('/login')
+@app.route('/')
 def logar():
     return render_template('login.html')
 
@@ -39,10 +39,10 @@ def aut():
     if 'alogo' == request.form['senha']:
         session['Usuario_logado'] = request.form['usuario']
         flash(session['Usuario_logado'] + ' logado com sucesso!')
-        return redirect('/')
+        return redirect('/lista')
     else:
         flash('Usuário não logado.')
-        return redirect('/login')
+        return redirect('/')
 
 if __name__ == "__main__":
     app.run(debug=True)
