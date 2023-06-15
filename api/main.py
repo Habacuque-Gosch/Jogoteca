@@ -36,7 +36,7 @@ def logar():
 
 @app.route('/autenticar', methods=['POST'])
 def aut():
-    if 'alogo' == request.form['senha']:
+    if 'alohomora' == request.form['senha']:
         session['Usuario_logado'] = request.form['usuario']
         flash(session['Usuario_logado'] + ' logado com sucesso!')
         return redirect('/lista')
