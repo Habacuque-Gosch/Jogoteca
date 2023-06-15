@@ -26,7 +26,9 @@ Este projeto tem como objetivo criar uma lista de seus jogos favoritos te divers
             
 ## Ferramentas utilizadas
 
-<a href="https://www.python.org" target="_blank"> <img src="https://www.tshirtgeek.com.br/wp-content/uploads/2021/03/com001.jpg" alt="Python" width="40" height="40"/> </a> 
+<a href="https://www.python.org" target="_blank"> <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="Python" width="100" height="30"/> </a> 
+<a href="https://flask-ptbr.readthedocs.io/en/latest/" target="_blank"> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="flask" width="100" height="30"/> </a> 
+<a href="https://www.devmedia.com.br/comandos-e-tags-html5/23618" target="_blank"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" width="100" height="30"/> </a> 
     
 ### Você também me encontra em:
 &nbsp;<a href="https://www.linkedin.com/in/habacuque-gosch-de-oliveira-993b45264/">
