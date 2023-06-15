@@ -29,6 +29,8 @@ Este projeto tem como objetivo criar uma lista de seus jogos favoritos te divers
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white) 
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white")
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![BootStrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
    
 ### Você também me encontra em:
 &nbsp;<a href="https://www.linkedin.com/in/habacuque-gosch-de-oliveira-993b45264/">
