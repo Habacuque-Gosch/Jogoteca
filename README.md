@@ -21,7 +21,7 @@ Este projeto tem como objetivo criar uma lista de seus jogos favoritos te divers
  
 <div align='center'>
     <h1>Aplicação<h1>
-    <a href="https://gamelist1.vercel.app">gamelist.com</a>
+    <a href="https://gamelist-tau.vercel.app">gamelist.com</a>
 </div>
             
 ## Ferramentas utilizadas
