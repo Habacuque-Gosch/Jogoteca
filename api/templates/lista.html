@@ -1,0 +1,28 @@
+{% extends "template.html" %}
+{% block conteudo %}
+        <table class="table table-striped table-responsive table-bordered">
+            <thead class="thead-default">
+
+                <tr>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Console</th>
+                </tr>   
+            </thead>
+            <tbody>
+                {% for jogo in jogos %}
+                <tr>
+                    <td>{{ jogo.nome }}</td>
+                    <td>{{ jogo.categoria }}</td>
+                    <td>{{ jogo.console }}</td>
+                </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+        <div style="display: block;"><a href="\novo"><img src="https://cdn-icons-png.flaticon.com/128/2740/2740600.png" alt="adicionar jogo" 
+        style="width: 35px;height:35px;"></a>
+        <a style="margin-left: 1em;" href="{{ url_for('logout') }}"><img src="https://cdn-icons-png.flaticon.com/128/10397/10397742.png" alt="encerrar sessão"
+        style="width: 35px;height:35px;"></a></div>
+
+{% endblock %}
