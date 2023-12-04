@@ -1,4 +1,4 @@
-<h1>my game list </h1>
+<h1>Jogoteca </h1>
 
 <h2>Bem vindo(ao) meu repositório</h2>
 
